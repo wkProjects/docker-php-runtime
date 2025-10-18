@@ -1,0 +1,9 @@
+apcu
+gd
+intl
+mbstring
+mysqli
+opcache
+pdo
+pdo_mysql
+pdo_pgsql
