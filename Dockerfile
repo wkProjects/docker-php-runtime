@@ -14,6 +14,7 @@ RUN curl -sSLf \
     chmod +x /usr/local/bin/install-php-extensions && \
     install-php-extensions \
         gd \
+        mbstring \
         mysqli \
         opcache \
         pdo
