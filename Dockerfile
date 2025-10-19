@@ -7,7 +7,7 @@ COPY php_extensions /etc/php_extensions
 RUN install-php-extensions $(cat /etc/php_extensions)
 
 COPY apache_modules /etc/apache_modules
-RUN a2enmod $(cat apache_modules)
+RUN a2enmod $(cat /etc/apache_modules)
 
 COPY php.ini $PHP_INI_DIR/conf.d/custom.ini
 
