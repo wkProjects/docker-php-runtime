@@ -1,4 +1,5 @@
 apcu
+curl
 gd
 intl
 mbstring
