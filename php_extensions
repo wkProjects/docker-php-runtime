@@ -7,3 +7,4 @@ opcache
 pdo
 pdo_mysql
 pdo_pgsql
+yaml
