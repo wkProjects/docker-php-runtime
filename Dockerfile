@@ -1,4 +1,4 @@
-FROM php:8.4.26-apache
+FROM php:8.5.12-apache
 
 ARG EXTENSION_INSTALLER_VERSION=2.12.3
 ADD --chmod=0755 https://github.com/mlocati/docker-php-extension-installer/releases/download/${EXTENSION_INSTALLER_VERSION}/install-php-extensions /usr/local/bin/
